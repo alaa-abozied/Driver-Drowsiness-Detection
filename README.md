@@ -7,7 +7,9 @@ This project uses the same style as the HAR/SLR hybrid architecture projects, bu
 - CNN encoder per frame (`TimeDistributed` Conv2D blocks)
 - LSTM layer 1 for temporal modeling
 - LSTM layer 2 for sequence summarization
-- Dense classifier with Softmax output
+-  Dense classifier with Softmax output
+
+<img width="697" height="638" alt="image" src="https://github.com/user-attachments/assets/cf1dde72-d355-4cad-a9af-99f98a560da9" />
 
 ## Input
 
@@ -39,6 +41,9 @@ cd D:\Desktop\CNN-LSTM-Driver-Drowsiness
 pip install -r requirements.txt
 python main.py
 ```
+
+<img width="944" height="443" alt="image" src="https://github.com/user-attachments/assets/343b77a1-f96d-4ce4-9e17-f388eceef087" />
+
 
 ## Outputs
 
